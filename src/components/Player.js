@@ -21,7 +21,7 @@ function Player({ initialName, symbol, isActive }) {
   const btnCaption = !isEditing ? "Edit" : "Save";
 
   return (
-    <li className={isActive ? 'active' : undefined}>
+    <li className={isActive ? "active" : undefined}>
       <span className="player">
         {editablePlayername}
         <span className="player-symbol">{symbol}</span>
